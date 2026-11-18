@@ -65,7 +65,7 @@ This means that if a DLL with a DllMain functions is loaded by the explorer, the
 And this is exactly what is being done here. In addition to that, the DLL is being disguised as an icon:
 
 ## The icon
-The "icon" is actually a simple DLL file with an .ico extension that opens the calculator app with an icon resource that was added using the [Resource Hacker]("https://www.angusj.com/resourcehacker/"). _(The icon can also be added in Visual Studio)_
+The "icon" is actually a simple DLL file with an .ico extension that opens the calculator app with an icon resource that was added using the [Resource Hacker]("https://www.angusj.com/resourcehacker/") or [Resource Cracker](https://www.pelock.com/products/resource-cracker). _(The icon can also be added in Visual Studio)_
 
 There are some anomalies when it comes to the appearance of the icon in the folder view. I have tested this on two different Windows 10 versions (the newest and an older one) and on Windows 11.
 
